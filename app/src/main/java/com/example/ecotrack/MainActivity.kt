@@ -12,10 +12,18 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.ecotrack.ui.theme.EcoTrackTheme
+import ui.navigation.AppNavigation
+
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setContent {
+            EcoTrackTheme {
+                AppNavigation()
+            }
+        }
+
         enableEdgeToEdge()
         setContent {
             EcoTrackTheme {
