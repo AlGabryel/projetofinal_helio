@@ -7,7 +7,7 @@ object RetrofitInstance {
 
     val api: EcoApiService by lazy {
         Retrofit.Builder()
-            .baseUrl("https://suaapi.com/")
+            .baseUrl("https://api.api-ninjas.com/v1/quotes?category=environment")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
             .create(EcoApiService::class.java)

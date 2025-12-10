@@ -4,7 +4,6 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-
 import com.example.ecotrack.ui.home.HomeScreen
 import com.example.ecotrack.ui.habits.HabitsScreen
 import com.example.ecotrack.ui.challenges.ChallengesScreen

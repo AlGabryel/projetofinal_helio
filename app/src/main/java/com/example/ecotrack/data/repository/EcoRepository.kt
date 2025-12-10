@@ -1,4 +1,4 @@
-package com.example.ecotrack.domain.repository
+package com.example.ecotrack.data.repository
 
 import com.example.ecotrack.domain.model.EcoTip
 

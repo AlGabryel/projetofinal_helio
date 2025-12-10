@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.example.ecotrack"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.ecotrack"
@@ -61,4 +61,5 @@ dependencies {
     implementation(libs.okhttp)
     implementation(libs.logging.interceptor)
     implementation(libs.kotlinx.coroutines.android)
+    implementation(libs.androidx.navigation.compose)
 }

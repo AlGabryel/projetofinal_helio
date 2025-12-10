@@ -1,6 +1,6 @@
 package com.example.ecotrack.domain.usecase
 
-import com.example.ecotrack.domain.repository.EcoRepository
+import com.example.ecotrack.data.repository.EcoRepository
 
 class GetDailyTipsUseCase(
     private val repository: EcoRepository
